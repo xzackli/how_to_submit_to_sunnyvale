@@ -21,5 +21,10 @@ qstat $JOBID
 ```
 qstat -u bpennel
 ```
+## Step 4: Industrialise
 
+```bash
+cd output/
+julia batch_submission.jl
+```
 
